@@ -7,3 +7,9 @@ def largest(list):
 def occurrences(str1, str2):
     num_occurrences = str1.count(str2)
     return num_occurrences
+
+def product(*argv):
+    product = 1
+    for arg in argv:
+        product *= arg
+    return product
