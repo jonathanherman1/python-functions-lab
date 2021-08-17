@@ -3,3 +3,7 @@ def sum_to(n):
 
 def largest(list):
     return max(list)
+
+def occurrences(str1, str2):
+    num_occurrences = str1.count(str2)
+    return num_occurrences
